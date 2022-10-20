@@ -1,5 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from services.yolo.boot import get_image
 import uvicorn
 
 app = FastAPI()
@@ -20,8 +21,13 @@ app.add_middleware(
 
 @app.get("/")
 async def main():
-    return {"message": "Hello World"}
+    return {"status": "success", "message": "Hello World"}
+
+
+@app.get("/yolo")
+async def image(images: UploadFile):
+    get_image(await images.read())
 
 
 if __name__ == "__main__":
-   uvicorn.run(app, host="0.0.0.0", port=5000)
+    uvicorn.run(app, host="0.0.0.0", port=5000)  # or python3 -m main
