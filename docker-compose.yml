@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  yolo:
+    build: ./services/yolo/
+    ports: ["5001:5001"]
+    container_name: yolo
+  ocr:
+    build: ./services/ocr/
+    ports: ["5002:5002"]
+    container_name: ocr
+  networks:
+    default:
+      driver: bridge
+      ipam:
+        config:
+          - subnet: 172.16.57.0/24
