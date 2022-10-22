@@ -1,18 +1,19 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px src="https://user-images.githubusercontent.com/83460816/188367621-2e70843d-1d39-4726-9ba1-a9fa8ce33c8f.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">AI Maker FastAPI</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/ThiagoKS-7/Ai-Maker-FastAPI.svg)](https://github.com/ThiagoKS-7/Ai-Maker-FastAPI/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ThiagoKS-7/Ai-Maker-FastAPI.svg)](https://github.com/ThiagoKS-7/Ai-Maker-FastAPI/pulls)
+[![License](https://img.shields.io/badge/license-GNUv3-blue.svg)](/LICENSE)
 
 </div>
+
 
 ---
 
@@ -102,8 +103,10 @@ Add additional notes about how to deploy this on a live system.
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
+| [<img src="https://avatars.githubusercontent.com/u/83460816?v=4" width=115><br><sub>Thiago Kasper de Souza</sub>](https://github.com/ThiagoKS-7) |
+| :---: |
+![GitHub Org's stars](https://img.shields.io/github/stars/ThiagoKS-7?style=social)
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
