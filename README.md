@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> A FastAPI ML API for AI Maker app.
     <br> 
 </p>
 
