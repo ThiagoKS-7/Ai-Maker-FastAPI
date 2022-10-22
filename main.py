@@ -1,6 +1,7 @@
 from fastapi import FastAPI, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from services.yolo.boot import get_image
+from services.yolo.boot_yolo import YOLO
+from services.ocr.boot_ocr import OCR
 import uvicorn
 
 app = FastAPI()
@@ -26,7 +27,12 @@ async def main():
 
 @app.get("/yolo")
 async def image(images: UploadFile):
-    get_image(await images.read())
+    YOLO(await images.read()).get_image()
+
+
+@app.get("/ocr")
+async def image(images: UploadFile):
+    OCR(await images.read()).start()
 
 
 if __name__ == "__main__":
