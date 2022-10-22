@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> A FastAPI ML API for AI Maker app.
+<p align="center"> A FastAPI  open source ML API.
     <br> 
 </p>
 
@@ -32,7 +32,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-A FastAPI ML API for AI Maker app.
+A FastAPI open source ML API, built with the main purpose of serving to AI Maker's webapp.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
