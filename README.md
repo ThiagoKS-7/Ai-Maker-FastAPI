@@ -42,18 +42,7 @@ Write about 1-2 paragraphs describing the purpose of your project.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Python instalado
 
 ```
 Give the example
@@ -67,40 +56,12 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [FastAPI](https://fastapi.tiangolo.com/) - Server Framework
+- [Docker](https://www.docker.com/) - Containers
+- [Python](https://www.python.org/) - Main Language
+- [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_amers-br_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624308&adgroup=115749706023&gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4isr-vtKYLyPmjlnL4g8NkPHGgxjJk_iIKqIu9DW5aQefN16lY0gMaAp--EALw_wcB) - Database
 
 ## ✍️ Authors <a name = "authors"></a>
 | [<img src="https://avatars.githubusercontent.com/u/83460816?v=4" width=115><br><sub>Thiago Kasper de Souza</sub>](https://github.com/ThiagoKS-7) |
