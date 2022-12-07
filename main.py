@@ -32,7 +32,7 @@ async def image(images: UploadFile):
 
 @app.get("/ocr")
 async def image(images: UploadFile):
-    OCR(await images.read()).start()
+    return OCR(await images.read()).start()
 
 
 if __name__ == "__main__":
