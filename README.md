@@ -18,7 +18,6 @@
 ---
 ![image](https://user-images.githubusercontent.com/83460816/197322175-8048d9d1-92c1-42f4-a90c-06311a5cba2f.png)
 
-
 <p align="center"> A FastAPI  open source ML API.
     <br> 
 </p>
@@ -57,3 +56,4 @@ Python installed (version 3.6.8 or higher)
 
 
 See also the list of [contributors](https://github.com/ThiagoKS-7/Ai-Maker-FastAPI/contributors) who participated in this project.
+Inpiration: https://github.com/ThiagoKS-7/ai-maker-ai-guy-s-flask-api
