@@ -25,12 +25,12 @@ async def main():
     return {"status": "success", "message": "Hello World"}
 
 
-@app.get("/yolo")
+@app.post("/yolo")
 async def image(images: UploadFile):
     YOLO(await images.read()).get_image()
 
 
-@app.get("/ocr")
+@app.post("/ocr")
 async def image(images: UploadFile):
     return OCR(await images.read()).start()
 
