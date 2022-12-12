@@ -27,7 +27,7 @@ async def main():
 
 @app.post("/yolo")
 async def image(images: UploadFile):
-    YOLO(await images.read()).get_image()
+    return YOLO(await images.read()).get_image()
 
 
 @app.post("/ocr")
