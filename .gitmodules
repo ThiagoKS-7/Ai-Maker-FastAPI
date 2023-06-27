@@ -1,5 +1,5 @@
 [submodule "services/yolo_service"]
-	path = yolo_service
+	path = services/yolo_service
 	url = git@github.com:ThiagoKS-7/yolo_service.git
 [submodule "services/ocr_service"]
 	path = services/ocr_service
