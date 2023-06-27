@@ -1,8 +1,8 @@
 from fastapi import FastAPI, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from services.yolo.boot_yolo import YOLO
-from services.ocr.boot_ocr import OCR
+# from services.ocr.boot_ocr import OCR
 import uvicorn
+from yolo_service.yolo.conf.parameters import get_YOLO_img_to_base64_response_params
 
 app = FastAPI()
 
@@ -27,12 +27,12 @@ async def main():
 
 @app.post("/yolo")
 async def image(images: UploadFile):
-    return YOLO(await images.read()).get_image()
+    return get_YOLO_img_to_base64_response_params(await images.read()).get_image()
 
 
-@app.post("/ocr")
-async def image(images: UploadFile):
-    return OCR(await images.read()).start()
+# @app.post("/ocr")
+# async def image(images: UploadFile):
+#     return OCR(await images.read()).start()
 
 
 if __name__ == "__main__":
