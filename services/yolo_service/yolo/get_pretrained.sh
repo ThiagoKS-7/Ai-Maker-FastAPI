@@ -1,1 +1,0 @@
-wget https://pjreddie.com/media/files/yolov3.weights -O yolo/weights/yolov3.weights
